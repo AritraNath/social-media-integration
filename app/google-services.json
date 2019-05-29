@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719744960405",
+    "firebase_url": "https://loginappdemo-3180c.firebaseio.com",
+    "project_id": "loginappdemo-3180c",
+    "storage_bucket": "loginappdemo-3180c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719744960405:android:f4c20bbb19c770c0",
+        "android_client_info": {
+          "package_name": "com.aritra.loginappdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719744960405-e9qvmg08ndq5vmfheo9ivuffejpeuuj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aritra.loginappdemo",
+            "certificate_hash": "02b46d9ed06074906c9a16f377450fa112a1c7e4"
+          }
+        },
+        {
+          "client_id": "719744960405-4g95vhot23fhnmtghhgqcrmic41rdar4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMlNof5R6lQkOOwgoiDM-h64-4eWmyLwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719744960405-4g95vhot23fhnmtghhgqcrmic41rdar4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

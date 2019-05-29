@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idLoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="128dp"
+        android:text="Welcome to"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgCompanyLogo"
+        android:layout_width="234dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_small" />
+
+    <TextView
+        android:id="@+id/txtCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="8dp"
+        android:text="The Sparks Foundation"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCompanyLogo" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/etUser"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="84dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:drawableStart="@drawable/ic_action_user"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Email"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.514"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/txtCompanyName" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/etPass"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:drawableStart="@drawable/ic_action_pass"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Password"-->
+        <!--android:inputType="textPassword"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/etUser" />-->
+
+    <Button
+        android:id="@+id/btnFacebook"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/com_facebook_button_login_background"
+        android:drawableStart="@drawable/com_facebook_button_login_logo"
+        android:elevation="24dp"
+        android:padding="16dp"
+        android:text="Log in with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCompanyName" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_twitter"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Body1"-->
+        <!--android:layout_width="275dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:background="@drawable/tw__btn_composer_tweet"-->
+        <!--android:drawableStart="@drawable/tw__composer_logo_white"-->
+        <!--android:elevation="24dp"-->
+        <!--android:padding="16dp"-->
+        <!--android:text="LOGIN WITH TWITTER"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#ffff"-->
+        <!--android:textSize="14sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />-->
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/btn_twitter"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="97dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
+
+    <TextView
+        android:id="@+id/txtTermsAndConditions"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="By clicking on login, you are accepting our terms and conditions"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/txtCopyright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_twitter"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/fb_button"-->
+        <!--android:layout_width="215dp"-->
+        <!--android:layout_height="29dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginStart="100dp"-->
+        <!--android:layout_marginTop="600dp"-->
+        <!--android:layout_marginEnd="96dp"-->
+        <!--android:elevation="10dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.562"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/txtCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/copyright_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTermsAndConditions" />
+
+    <!--<com.twitter.sdk.android.core.identity.TwitterLoginButton-->
+    <!--android:id="@+id/twitter_button"-->
+    <!--android:layout_width="225dp"-->
+    <!--android:layout_height="24dp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginStart="93dp"-->
+    <!--android:layout_marginEnd="92dp"-->
+    <!--android:layout_marginBottom="256dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">LoginAppDemo</string>
+    <string name="facebook_app_id">2086056141695287</string>
+    <string name="fb_login_protocol_scheme">fb2086056141695287</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">abc@xyz.com</string>
+
+    <!--<string name="com.twitter.sdk.android.CONSUMER_KEY">CO5r3gTHGHntVm2qwoylHvKQp</string>-->
+    <!--<string name="com.twitter.sdk.android.CONSUMER_SECRET">O6Z1UX74ouFb5SAxOcAiz9BNrSNfXKeWnM9Wy7KbDKUH1VQULL</string>-->
+    <string name="copyright_text">©2019 Aritra Nath for The Sparks Foundation</string>
+    <string name="btn_logout">Logout from App</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">CO5r3gTHGHntVm2qwoylHvKQp</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">O6Z1UX74ouFb5SAxOcAiz9BNrSNfXKeWnM9Wy7KbDKUH1VQULL</string>
+
+</resources>
