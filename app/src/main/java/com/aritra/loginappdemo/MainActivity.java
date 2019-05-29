@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TwitterAuthConfig authConfig = new TwitterAuthConfig("CO5r3gTHGHntVm2qwoylHvKQp ",
-                "O6Z1UX74ouFb5SAxOcAiz9BNrSNfXKeWnM9Wy7KbDKUH1VQULL");
+        TwitterAuthConfig authConfig = new TwitterAuthConfig("PUBLIC_KEY ",
+                "SECRET_KEY");
         TwitterConfig twitterConfig = new TwitterConfig.Builder(this)
                 .twitterAuthConfig(authConfig)
                 .build();
