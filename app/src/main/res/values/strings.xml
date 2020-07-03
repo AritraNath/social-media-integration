@@ -6,7 +6,7 @@
     <string name="profile_name">Name</string>
     <string name="profile_email">abc@xyz.com</string>
     
-    <string name="copyright_text">©2019 Aritra Nath for The Sparks Foundation</string>
+    <string name="copyright_text">©2019 Aritra Nath</string>
     <string name="btn_logout">Logout from App</string>
 
     <string name="com.twitter.sdk.android.CONSUMER_KEY">CONSUMER_KEY</string>
